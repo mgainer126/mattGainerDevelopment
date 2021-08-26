@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
+
+.port {
+  //   border: white 1px solid;
+  width: 75vw;
+  margin-left: 15rem;
+  margin-top: 15rem;
+  &__seemore {
+    border: 1px #08fdd8 solid;
+    color: #08fdd8;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__summary {
+    color: white;
+  }
+  &__title {
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+  }
+  &__summary-cta {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.cards {
+  display: flex;
+  margin-top: 2rem;
+
+  &__row1 {
+    display: flex;
+  }
+  &__card {
+    width: 25rem;
+    height: 20rem;
+    border: white solid 1px;
+  }
+  &__img {
+    width: 25rem;
+    height: 20rem;
+  }
+}
+
+// .cards-row1 {
+//   border: white solid 1px;
+//   display: flex;
+//   &__card {
+//     width: 5rem;
+//     height: 5rem;
+//     border: white solid 1px;
+//   }
+// }
