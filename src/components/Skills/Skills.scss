@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.skills {
+  color: white;
+  margin-left: 2rem;
+  width: 100vw;
+  border: white 1px solid;
+  margin-top: 2rem;
+
+  &__skill {
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+  &__title {
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+  }
+}

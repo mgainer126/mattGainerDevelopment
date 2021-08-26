@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.about {
+  border: white 1px solid;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  width: 50rem;
+  &__title {
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+  }
+  &__summary {
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+}
