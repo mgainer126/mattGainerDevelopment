@@ -1,19 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .skills {
   color: white;
   margin-left: 2rem;
   width: 100vw;
-  border: white 1px solid;
+  // border: white 1px solid;
   margin-top: 2rem;
+  &__1 {
+    margin: 0 3rem 3rem 3rem;
+  }
 
   &__skill {
     color: white;
     font-family: "Lato", sans-serif;
+    // here is the effect
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 0.75;
+    margin: 10px 0;
   }
   &__title {
     color: #08fdd8;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
+    margin-left: 3rem;
+  }
+  &__wrapper {
+    display: flex;
   }
 }

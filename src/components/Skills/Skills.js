@@ -4,15 +4,29 @@ function Skills() {
   return (
     <skills className="skills">
       <h3 className="skills__title">Skills</h3>
-      <p className="skills__skill">HTML</p>
-      <p className="skills__skill">CSS</p>
-      <p className="skills__skill">SASS</p>
-      <p className="skills__skill">Javascript</p>
-      <p className="skills__skill">React</p>
-      <p className="skills__skill">NodeJS</p>
-      <p className="skills__skill">Web API</p>
-      <p className="skills__skill">Knex</p>
-      <p className="skills__skill">Express</p>
+      <div className="skills__wrapper">
+        <section className="skills__1">
+          <p className="skills__skill">HTML</p>
+          <p className="skills__skill">CSS</p>
+          <p className="skills__skill">SASS</p>
+          <p className="skills__skill">Javascript</p>
+          <p className="skills__skill">React.js</p>
+        </section>
+        <section className="skills__1">
+          <p className="skills__skill">NodeJS</p>
+          <p className="skills__skill">DOM</p>
+          <p className="skills__skill">Web API</p>
+          <p className="skills__skill">Knex</p>
+          <p className="skills__skill">Express.js</p>
+        </section>
+        <section className="skills__1">
+          <p className="skills__skill">Node.js</p>
+          <p className="skills__skill">GitHub</p>
+          <p className="skills__skill">MySql</p>
+          <p className="skills__skill">Jira</p>
+          <p className="skills__skill">Confluence</p>
+        </section>
+      </div>
     </skills>
   );
 }
