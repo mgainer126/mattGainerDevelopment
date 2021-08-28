@@ -13,17 +13,21 @@ class Main extends React.Component {
       <>
         <div className="mainwrapper">
           <Navbar />
-          <Hero />
-        </div>
-        <div className="portfoliowrapper">
-          <Portfolio />
-        </div>
-        <div className="aboutwrapper">
-          <About />
-          <Skills />
-        </div>
-        <div className="contactme-wrapper">
-          <ContactMe />
+          <div className="mainpagealignment">
+            <div className="herowrapper">
+              <Hero />
+            </div>
+            <div className="portfoliowrapper">
+              <Portfolio />
+            </div>
+            <div className="aboutwrapper">
+              <About />
+              <Skills />
+            </div>
+            <div className="contactme-wrapper">
+              <ContactMe />
+            </div>
+          </div>
         </div>
       </>
     );
