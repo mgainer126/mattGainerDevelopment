@@ -9,14 +9,42 @@ function ContactMe() {
         you back as soon as possible
       </p>
       <form className="contact__form">
-        <input
-          type="text"
-          className="form-control"
-          id="name"
-          name="name"
-          placeholder="Name"
-        />
-        <label htmlFor="name">Name</label>
+        <div className="contact__info">
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            name="name"
+            placeholder="Name"
+          />
+          <label htmlFor="name">Name</label>
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            name="email"
+            placeholder="Email"
+          />
+          <label htmlFor="name">email</label>
+        </div>
+        <div className="contact__desc">
+          <input
+            type="text"
+            className="form-control"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+          />
+          <label htmlFor="name">subject</label>
+          <input
+            type="text"
+            className="form-control contact__fulldesc"
+            id="description"
+            name="description"
+            placeholder="Description"
+          />
+          <label htmlFor="name">description</label>
+        </div>
       </form>
     </contact>
   );

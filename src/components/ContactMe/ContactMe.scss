@@ -20,4 +20,15 @@
   &__form {
     margin-left: 15rem;
   }
+  &__info {
+    display: flex;
+    width: 50rem;
+  }
+  &__desc {
+    width: 47.6rem;
+    margin-top: 1rem;
+  }
+  &__fulldesc {
+    height: 12rem;
+  }
 }
