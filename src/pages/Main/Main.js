@@ -6,6 +6,7 @@ import Portfolio from "../../components/Portfolio/Portfolio";
 import About from "../../components/About/About";
 import Skills from "../../components/Skills/Skills";
 import ContactMe from "../../components/ContactMe/ContactMe";
+
 class Main extends React.Component {
   render() {
     return (
