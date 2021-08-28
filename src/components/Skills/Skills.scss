@@ -6,9 +6,9 @@
   margin-left: 2rem;
   width: 100vw;
   // border: white 1px solid;
-  margin-top: 2rem;
-  &__1 {
-    margin: 0 3rem 3rem 3rem;
+  margin-top: 5rem;
+  &__grp {
+    margin: 0 2rem 2rem 2rem;
   }
 
   &__skill {
@@ -21,7 +21,7 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 2.5rem;
     line-height: 0.75;
     margin: 10px 0;
   }
@@ -29,7 +29,7 @@
     color: #08fdd8;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   &__wrapper {
     display: flex;

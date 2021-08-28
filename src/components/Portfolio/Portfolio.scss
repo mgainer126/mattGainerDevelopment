@@ -5,6 +5,7 @@
   width: 75vw;
   margin-left: 15rem;
   margin-top: 15rem;
+
   &__seemore {
     border: 1px #08fdd8 solid;
     color: #08fdd8;
@@ -33,6 +34,8 @@
 .cards {
   display: flex;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 
   &__row1 {
     display: flex;

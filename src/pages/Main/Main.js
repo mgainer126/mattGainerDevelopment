@@ -5,7 +5,7 @@ import Hero from "../../components/Hero/Hero";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import About from "../../components/About/About";
 import Skills from "../../components/Skills/Skills";
-
+import ContactMe from "../../components/ContactMe/ContactMe";
 class Main extends React.Component {
   render() {
     return (
@@ -20,6 +20,9 @@ class Main extends React.Component {
         <div className="aboutwrapper">
           <About />
           <Skills />
+        </div>
+        <div className="contactme-wrapper">
+          <ContactMe />
         </div>
       </>
     );

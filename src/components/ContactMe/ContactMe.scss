@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-.about {
-  // border: white 1px solid;
-  margin-left: 15rem;
-  margin-top: 4rem;
-  width: 50rem;
+
+.contact {
   &__title {
+    margin-left: 15rem;
+    margin-top: 5rem;
     color: #08fdd8;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
@@ -14,6 +13,11 @@
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    width: 35rem;
+    margin-left: 15rem;
+    width: 50rem;
+  }
+
+  &__form {
+    margin-left: 15rem;
   }
 }
