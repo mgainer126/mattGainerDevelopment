@@ -1,5 +1,5 @@
 import "../Portfolio/Portfolio.scss";
-import foodiofare from "../../assets/foodiofare.png";
+import PortfolioCards from "../PorfolioCards/PortfolioCards";
 
 function Portfolio() {
   return (
@@ -11,22 +11,9 @@ function Portfolio() {
         </p>
         <div className="port__seemore">See More</div>
       </div>
-      <cards className="cards">
-        <cards className="cards-row1">
-          <div className="cards__card">
-            <img src={foodiofare} alt="foodiofare" className="cards__img"></img>
-          </div>
-          <div className="cards__card"></div>
-        </cards>
-        <cards className="cards-row2">
-          <div className="cards__card"></div>
-          <div className="cards__card"></div>
-        </cards>
-        <cards className="cards-row3">
-          <div className="cards__card"></div>
-          <div className="cards__card"></div>
-        </cards>
-      </cards>
+      <div className="portfoliocards">
+        <PortfolioCards />
+      </div>
     </section>
   );
 }

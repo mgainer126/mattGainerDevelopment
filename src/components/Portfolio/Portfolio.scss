@@ -44,9 +44,20 @@
     width: 25rem;
     height: 20rem;
     border: white solid 1px;
+    // &--brainflix {
+    //   justify-content: center;
+    //   align-content: center;
+    // }
   }
   &__img {
     width: 25rem;
     height: 20rem;
+    &--brainflix {
+      background-color: white;
+    }
+  }
+  .portfoliocards {
+    display: flex;
+    background-color: red;
   }
 }
