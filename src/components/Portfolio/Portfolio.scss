@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
 
 .port {
-  //   border: white 1px solid;
-  width: 75vw;
-  margin-left: 15rem;
-  margin-top: 15rem;
+  margin-top: 6.5rem;
+  padding: 1rem;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
 
   &__seemore {
     border: 1px #08fdd8 solid;
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
   }
   &__summary {
     color: white;
@@ -44,10 +46,6 @@
     width: 25rem;
     height: 20rem;
     border: white solid 1px;
-    // &--brainflix {
-    //   justify-content: center;
-    //   align-content: center;
-    // }
   }
   &__img {
     width: 25rem;

@@ -2,17 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 .herowrapper {
   color: white;
-  // border: solid white 1px;
-  // width: 100vw;
-  // height: 20rem;
-  margin-left: 15rem;
-  margin-top: 10rem;
-  padding-top: 3rem;
-  font-size: 3rem;
+  margin-top: 2rem;
   font-family: "Rampart One", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero {
+  font-size: 2rem;
   &__contact {
     border: 1px #08fdd8 solid;
     color: #08fdd8;
