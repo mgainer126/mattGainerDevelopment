@@ -4,3 +4,9 @@
   width: 100%;
   align-content: center;
 }
+
+@media only screen and (min-width: 768px) {
+  .mainpagealignment {
+    margin-left: 12rem;
+  }
+}

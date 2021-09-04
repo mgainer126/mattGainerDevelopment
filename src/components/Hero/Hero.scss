@@ -26,3 +26,10 @@
     margin: 4rem 2rem 2rem 1rem;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .herowrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+}

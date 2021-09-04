@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
-@media only screen and (min-width: 320px) {
-  .navbarwrapper {
-    display: none;
-  }
+.navbarwrapper {
+  display: none;
 }
 
 @media only screen and (min-width: 765px) {
-  /*Big smartphones [426px -> 600px]*/
-
   .navbarwrapper {
     background-color: #181818;
     width: 10rem;
-    height: 100vh;
+    height: 100%;
     color: #909096;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     position: fixed;
+    top: 0;
+    display: block;
+    padding-top: 2rem;
   }
 
   .logo {
     background-color: black;
     height: 5rem;
+
     &__img {
       width: 100%;
     }
