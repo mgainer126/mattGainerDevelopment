@@ -60,9 +60,10 @@
 @media only screen and (min-width: 768px) {
   .contact {
     &__map {
-      width: 50rem;
-      margin: 4rem;
+      width: 60%;
+      margin: 1rem;
       display: unset;
+      border-radius: 4px;
     }
   }
 }
