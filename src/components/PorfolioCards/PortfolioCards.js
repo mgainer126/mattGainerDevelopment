@@ -5,7 +5,7 @@ import portfolioCards from "../../assets/portfolioCards.json";
 
 function PortfolioCards() {
   return portfolioCards.map((card) => {
-    return <img src={card.image} className="portcard__box"></img>;
+    return <img src={card.image} alt="card" className="portcard__box"></img>;
   });
 }
 

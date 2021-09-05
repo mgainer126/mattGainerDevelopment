@@ -1,7 +1,30 @@
 import "../ContactMe/ContactMe.scss";
+// import { useState } from "react";
+// import { send } from "emailjs-com";
 import map from "../../assets/map.png";
+import emailjs from "emailjs-com";
 
 function ContactMe() {
+  function sendEmail(e) {
+    console.log(e);
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_dfmdol6",
+        "template_xr40a7l",
+        e.target,
+        "user_FgOIAYyl9oNSUlLrdBA5T"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
   return (
     <contact className="contact">
       <div className="contact__wrapper">
@@ -10,7 +33,7 @@ function ContactMe() {
           Please reach out to me with any questions and I'll be sure to contact
           you back as soon as possible
         </p>
-        <form className="contact__form">
+        <form className="contact__form" onSubmit={sendEmail}>
           <div className="contact__info">
             <input
               type="text"
@@ -47,10 +70,28 @@ function ContactMe() {
             />
             <label htmlFor="name"></label>
           </div>
-          <button className="contact__btn">Send Message</button>
+          <button
+            type="submit"
+            value="Send"
+            className="contact__btn"
+            value="Send Message"
+          >
+            Send Message
+          </button>
         </form>
       </div>
       <img src={map} alt="map" className="contact__map"></img>
+
+      {/* <form className="contact__form" onSubmit={sendEmail}>
+        <input type="hidden" name="contact_number" />
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form> */}
     </contact>
   );
 }
