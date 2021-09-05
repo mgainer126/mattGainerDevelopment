@@ -1,6 +1,4 @@
 import "../ContactMe/ContactMe.scss";
-// import { useState } from "react";
-// import { send } from "emailjs-com";
 import map from "../../assets/map.png";
 import emailjs from "emailjs-com";
 
@@ -70,28 +68,12 @@ function ContactMe() {
             />
             <label htmlFor="name"></label>
           </div>
-          <button
-            type="submit"
-            value="Send"
-            className="contact__btn"
-            value="Send Message"
-          >
+          <button type="submit" value="Send" className="contact__btn">
             Send Message
           </button>
         </form>
       </div>
       <img src={map} alt="map" className="contact__map"></img>
-
-      {/* <form className="contact__form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form> */}
     </contact>
   );
 }
