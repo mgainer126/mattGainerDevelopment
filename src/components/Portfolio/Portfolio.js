@@ -8,7 +8,8 @@ function Portfolio() {
         <h2 className="port__title">My Portfolio</h2>
         <div className="port__summary-cta">
           <p className="port__summary">
-            Here are a few samples of the projects that I've worked on
+            Here are a few samples of the projects that I've worked on. Please
+            click on the image below to be directed to the Github repo
           </p>
           <div className="port__seemore">See More</div>
         </div>
