@@ -14,6 +14,13 @@
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
-    max-width: 768px;
+    width: 80%;
+    max-width: 940px;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  // .about {
+  //   // margin: 4rem 0 0 1rem;
+  // }
 }

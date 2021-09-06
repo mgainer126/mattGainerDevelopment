@@ -3,11 +3,10 @@
 
 .contact {
   display: flex;
-
   width: 100%;
 
   &__title {
-    margin: 5rem 1rem 1rem 1rem;
+    margin: 2rem 1rem 1rem 1rem;
     color: #08fdd8;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
@@ -17,6 +16,7 @@
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
     margin: 1rem 1rem 1rem 1rem;
+    width: 80%;
     max-width: 500px;
   }
   &__name {
@@ -28,6 +28,7 @@
   }
   &__form {
     margin: 1rem;
+    width: 80%;
     max-width: 500px;
   }
   &__subject {
@@ -59,6 +60,7 @@
 
 @media only screen and (min-width: 768px) {
   .contact {
+    margin: 2rem 0 2rem 0;
     &__map {
       width: 60%;
       margin: 1rem;

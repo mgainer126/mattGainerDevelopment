@@ -24,6 +24,7 @@ class Main extends React.Component {
               <About />
               <Skills />
             </div>
+
             <div className="contactme-wrapper">
               <ContactMe />
             </div>
