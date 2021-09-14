@@ -14,10 +14,16 @@ function NavBar() {
           </logo>
         </Link>
         <ul className="navbar">
-          <li className="navbar__1">About</li>
+          <Link to="/AboutPage" className="navbar-link">
+            <li className="navbar__1">About</li>
+          </Link>
 
-          <li className="navbar__2">My Skills</li>
-          <li className="navbar__3">Work</li>
+          <Link to="/SkillsPage">
+            <li className="navbar__2" className="navbar-link">
+              My Skills
+            </li>
+          </Link>
+          {/* <li className="navbar__3">Work</li> */}
           <Link to="ContactPage" className="navbar-link">
             <li className="navbar__4">Contact</li>
           </Link>
