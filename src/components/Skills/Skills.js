@@ -20,6 +20,7 @@ function Skills() {
           <p className="skills__skill">GitHub</p>
           <p className="skills__skill">Jira</p>
           <p className="skills__skill">Confluence</p>
+          <p className="skills__skill">Ts2 (TSYS)</p>
         </section>
       </div>
     </div>
