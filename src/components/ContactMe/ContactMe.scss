@@ -52,7 +52,7 @@
     background-color: #1d1d1d;
   }
   &__map {
-    width: 50rem;
+    width: 60%;
     margin: 4rem;
     display: none;
   }
@@ -62,7 +62,9 @@
   .contact {
     margin: 2rem 0 2rem 0;
     &__map {
-      width: 60%;
+      width: 45%;
+      height: auto;
+      object-fit: cover;
       margin: 1rem;
       display: unset;
       border-radius: 4px;

@@ -6,7 +6,9 @@ function ContactPage() {
   return (
     <>
       <NavBar />
-      <ContactMe />
+      <div className="contact-me-page">
+        <ContactMe />
+      </div>
     </>
   );
 }
