@@ -18,10 +18,8 @@ function NavBar() {
             <li className="navbar__1">About</li>
           </Link>
 
-          <Link to="/SkillsPage">
-            <li className="navbar__2" className="navbar-link">
-              My Skills
-            </li>
+          <Link to="/SkillsPage" className="navbar-link">
+            <li className="navbar__2">My Skills</li>
           </Link>
           {/* <li className="navbar__3">Work</li> */}
           <Link to="ContactPage" className="navbar-link">
