@@ -1,3 +1,4 @@
+import "../MySkillsPage/MySkillsPage.scss";
 import Skills from "../../components/Skills/Skills";
 import NavBar from "../../components/NavBar/NavBar";
 
@@ -5,7 +6,9 @@ function MySkillsPage() {
   return (
     <>
       <NavBar />
-      <Skills />
+      <div className="my-skills-page">
+        <Skills />
+      </div>
     </>
   );
 }
