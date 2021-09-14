@@ -4,6 +4,10 @@
   display: none;
 }
 
+.navbar-link {
+  text-decoration: none;
+  color: #909096;
+}
 @media only screen and (min-width: 765px) {
   .navbarwrapper {
     background-color: #181818;

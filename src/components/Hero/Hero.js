@@ -1,4 +1,5 @@
 import "../../components/Hero/Hero.scss";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -8,7 +9,9 @@ function Hero() {
           <h2 className="hero">Hey,</h2>
           <h2 className="hero">I'm Matt,</h2>
           <h2 className="hero">web developer</h2>
-          <div className="hero__contact">Contact Me!</div>
+          <Link to="/ContactPage" className="contact-link">
+            <div className="hero__contact">Contact Me!</div>
+          </Link>
         </div>
       </hero>
     </>

@@ -11,6 +11,8 @@ function Skills() {
           <p className="skills__skill">SASS</p>
           <p className="skills__skill">Javascript</p>
           <p className="skills__skill">React.js</p>
+          <p className="skills__skill">Gatsby.js</p>
+          <p className="skills__skill">GraphQL</p>
           <p className="skills__skill">DOM</p>
           <p className="skills__skill">Web API</p>
           <p className="skills__skill">Node.js</p>
