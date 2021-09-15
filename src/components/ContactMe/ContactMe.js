@@ -1,6 +1,9 @@
 import "../ContactMe/ContactMe.scss";
 import map from "../../assets/map.png";
 import emailjs from "emailjs-com";
+import React, { useState } from "react";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 function ContactMe() {
   function sendEmail(e) {
@@ -23,6 +26,11 @@ function ContactMe() {
         }
       );
   }
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <contact className="contact">
       <div className="contact__wrapper">
@@ -68,9 +76,27 @@ function ContactMe() {
             />
             <label htmlFor="name"></label>
           </div>
-          <button type="submit" value="Send" className="contact__btn">
+          <button
+            type="submit"
+            value="Send"
+            className="contact__btn"
+            variant="primary"
+            onClick={handleShow}
+          >
             Send Message
           </button>
+          <Modal show={show} onHide={handleClose} animation={false}>
+            <Modal.Header closeButton>
+              <Modal.Title>Message Sent!!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>Your Message Has Been Sent!!</Modal.Body>
+            <Modal.Body>I'll Be In Contact You Shortly.</Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </form>
       </div>
       <img src={map} alt="map" className="contact__map"></img>
