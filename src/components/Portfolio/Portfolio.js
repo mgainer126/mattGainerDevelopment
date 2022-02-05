@@ -9,7 +9,8 @@ function Portfolio() {
         <div className="port__summary-cta">
           <p className="port__summary">
             Here are a few samples of the projects that I've worked on. Please
-            click on the image below to be directed to the Github repo
+            click on the image below to be directed to the Github repo or the
+            implemented website
           </p>
           <div className="port__seemore">See More</div>
         </div>
