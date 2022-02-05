@@ -8,7 +8,7 @@ function Hero() {
         <div>
           <h2 className="hero">Hey,</h2>
           <h2 className="hero">I'm Matt,</h2>
-          <h2 className="hero">web developer</h2>
+          <h2 className="hero">Web Developer</h2>
           <Link to="/ContactPage" className="contact-link">
             <div className="hero__contact">Contact Me!</div>
           </Link>
