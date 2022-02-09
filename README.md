@@ -20,4 +20,6 @@ The mattgainerdevelopment.com site was built with:
 1. React
 2. Javascript
 3. SASS
+4. Bootstrap
+5. EmailJS
 
