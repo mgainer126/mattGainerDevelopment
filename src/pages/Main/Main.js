@@ -10,7 +10,7 @@ import ContactMe from "../../components/ContactMe/ContactMe";
 
 function Main() {
   return (
-    <div className="container">
+    <div className="pagewrapper">
       {/* <Navbar /> */}
       <Header />
       <div className="mainwrapper">

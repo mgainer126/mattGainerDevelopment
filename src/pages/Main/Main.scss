@@ -1,7 +1,7 @@
 .mainwrapper {
-  width: 100rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .mainpagealignment {
@@ -13,7 +13,12 @@
 
 @media only screen and (min-width: 768px) {
   .mainpagealignment {
-    margin-left: 15rem;
+    margin-left: 0rem;
+  }
+  .pagewrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 }
 
@@ -21,7 +26,6 @@
   .mainpagealignment {
     display: flex;
     align-items: center;
-    width: 125rem;
   }
   .aboutwrapper {
     display: flex;

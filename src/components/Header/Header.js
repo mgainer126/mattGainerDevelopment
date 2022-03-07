@@ -15,15 +15,15 @@ function Header() {
         </Link>
         <ul className="header__navbar">
           <Link to="/AboutPage" className="headernavbar__link">
-            <li className="header__1">About</li>
+            <li className="header__item">About</li>
           </Link>
 
           <Link to="/SkillsPage" className="headernavbar__link">
-            <li className="header__2">My Skills</li>
+            <li className="header__item">My Skills</li>
           </Link>
           {/* <li className="navbar__3">Work</li> */}
           <Link to="ContactPage" className="headernavbar__link">
-            <li className="header__4">Contact</li>
+            <li className="header__item">Contact</li>
           </Link>
         </ul>
         <ul className="header__soc-media">
