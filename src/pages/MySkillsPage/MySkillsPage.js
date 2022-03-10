@@ -1,11 +1,11 @@
 import "../MySkillsPage/MySkillsPage.scss";
 import Skills from "../../components/Skills/Skills";
-import NavBar from "../../components/NavBar/NavBar";
+import Header from "../../components/Header/Header";
 
 function MySkillsPage() {
   return (
     <>
-      <NavBar />
+      <Header />
       <div className="my-skills-page">
         <Skills />
       </div>

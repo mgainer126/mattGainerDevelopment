@@ -1,11 +1,11 @@
 import "../AboutPage/AboutPage.scss";
 import About from "../../components/About/About";
-import NavBar from "../../components/NavBar/NavBar";
+import Header from "../../components/Header/Header";
 
 function AboutPage() {
   return (
     <>
-      <NavBar />
+      <Header />
       <div className="about-page">
         <About />
       </div>

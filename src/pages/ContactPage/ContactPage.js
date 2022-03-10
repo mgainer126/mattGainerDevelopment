@@ -1,11 +1,11 @@
 import "../ContactPage/ContactPage.scss";
 import ContactMe from "../../components/ContactMe/ContactMe";
-import NavBar from "../../components/NavBar/NavBar";
+import Header from "../../components/Header/Header";
 
 function ContactPage() {
   return (
     <>
-      <NavBar />
+      <Header />
       <div className="contact-me-page">
         <ContactMe />
       </div>
