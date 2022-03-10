@@ -5,6 +5,11 @@
   color: white;
   width: 100vw;
   margin-top: 3rem;
+
+  &__pagealign {
+    display: flex;
+    justify-content: center;
+  }
   &__grp {
     margin: 0 2rem 2rem 1rem;
     display: flex;
@@ -44,7 +49,7 @@
     margin-top: 2rem;
     &__skill {
       width: 11rem;
-      font-size: 1.5rem;
+      font-size: 2.75rem;
     }
     &__wrapper {
       display: flex;
