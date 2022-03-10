@@ -6,6 +6,14 @@
   width: 100%;
   flex-direction: column;
 
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 15rem;
+  }
+
   &__title {
     margin: 2rem 1rem 1rem 1rem;
     color: #08fdd8;
