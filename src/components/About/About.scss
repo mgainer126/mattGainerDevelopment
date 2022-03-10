@@ -3,6 +3,7 @@
 .about {
   margin-top: 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   margin: 1rem;
   &__title {
@@ -20,7 +21,43 @@
 }
 
 @media only screen and (min-width: 768px) {
-  // .about {
-  //   // margin: 4rem 0 0 1rem;
-  // }
+  .about {
+    justify-content: center;
+  }
 }
+
+@media only screen and (min-width: 1280px) {
+  .about {
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+
+    width: 60rem;
+    &__summary {
+      font-size: 2.5rem;
+      width: 100%;
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 62rem;
+    }
+  }
+}
+
+// @media only screen and (min-width: 2880px) {
+//   .about {
+//     &__wrapper {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       width: 90%;
+//     }
+//     &__title {
+//     }
+//     &__summary {
+//       width: 100%;
+//       margin-bottom: 2rem;
+//     }
+//   }
+// }
