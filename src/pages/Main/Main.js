@@ -1,7 +1,7 @@
 import React from "react";
 import "../Main/Main.scss";
 import Header from "../../components/Header/Header";
-import Navbar from "../../components/NavBar/NavBar";
+// import Navbar from "../../components/NavBar/NavBar";
 import Hero from "../../components/Hero/Hero";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import About from "../../components/About/About";
