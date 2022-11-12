@@ -8,6 +8,7 @@ function Skills() {
         <div className="skills__wrapper">
           <section className="skills__grp">
             <p className="skills__skill">HTML</p>
+            <p className="skills__skill">Agile</p>
             <p className="skills__skill">CSS</p>
             <p className="skills__skill">SASS</p>
             <p className="skills__skill">Javascript</p>
