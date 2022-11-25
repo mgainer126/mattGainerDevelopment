@@ -19,10 +19,9 @@ function About() {
           other areas of the business to bring ideas to life.
         </p>
         <p className="about__summary">
-          As a recent Web Development graduate I feel the sky is the limit in
-          terms of what I can do with code. With this educational knowledge, I
-          intend to deliver experiences to customers from inception through to
-          code as a developer. When you love what you do, it is not work.
+          I feel the sky is the limit in terms of what can be done  with code. I
+          intend to deliver experiences to customers from  idea inception through to
+          code. When you love what you do, it is not work.
         </p>
       </about>
     </section>
