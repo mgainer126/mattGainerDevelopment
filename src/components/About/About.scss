@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.about {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  &__title {
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+  }
+  &__summary {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 940px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about {
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+
+    width: 60rem;
+    &__summary {
+      font-size: 2.5rem;
+      width: 100%;
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 62rem;
+    }
+  }
+}
+
+// @media only screen and (min-width: 2880px) {
+//   .about {
+//     &__wrapper {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       width: 90%;
+//     }
+//     &__title {
+//     }
+//     &__summary {
+//       width: 100%;
+//       margin-bottom: 2rem;
+//     }
+//   }
+// }

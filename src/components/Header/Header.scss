@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.header {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    background-color: #181818;
+    width: 100%;
+    &__wrapper {
+      display: flex;
+      width: 100%;
+    }
+    &__img {
+      height: 10rem;
+    }
+    &__navbar {
+      display: flex;
+      list-style: none;
+      margin-top: 3rem;
+    }
+    &__soc-media {
+      display: flex;
+      list-style: none;
+      margin-left: auto;
+      margin-top: 4.5rem;
+      margin-right: 2.5rem;
+    }
+    &__item {
+      margin: 2rem;
+      list-style: none;
+    }
+  }
+
+  .headernavbar__link {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    color: #909096;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headersoc-media__img-linkedin {
+    margin-left: 1rem;
+  }
+  .headersoc-media__img-github {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.contact {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 15rem;
+  }
+
+  &__title {
+    margin: 2rem 1rem 1rem 1rem;
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+  }
+  &__summary {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 80%;
+    max-width: 500px;
+  }
+  &__name {
+    background-color: #2b2b2b;
+  }
+
+  &__email {
+    background-color: #2b2b2b;
+  }
+  &__form {
+    margin: 1rem;
+    width: 80%;
+    max-width: 500px;
+  }
+  &__subject {
+    background-color: #2b2b2b;
+  }
+  &__desc {
+    margin-top: 1rem;
+  }
+  &__fulldesc {
+    height: 12rem;
+    background-color: #2b2b2b;
+  }
+  &__btn {
+    border: 1px #08fdd8 solid;
+    color: #08fdd8;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    margin: 2rem 1rem 1rem 0;
+    background-color: #1d1d1d;
+  }
+  &__map {
+    width: 60%;
+    margin: 4rem;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    margin: 2rem 0 2rem 0;
+    width: 60rem;
+    &__map {
+      width: 45%;
+      height: auto;
+      object-fit: cover;
+      margin: 1rem;
+      display: unset;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .contact {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+  }
+}

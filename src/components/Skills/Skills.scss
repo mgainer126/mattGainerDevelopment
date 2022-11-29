@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.skills {
+  color: white;
+  width: 100vw;
+  margin-top: 3rem;
+
+  &__pagealign {
+    display: flex;
+    justify-content: center;
+  }
+  &__grp {
+    margin: 0 2rem 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__skill {
+    width: 8rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    // here is the effect
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 0.75;
+    margin: 10px 0;
+  }
+  &__title {
+    color: #08fdd8;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  &__wrapper {
+    display: flex;
+    width: 80%;
+    max-width: 750px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .skills {
+    margin-top: 2rem;
+    &__skill {
+      width: 11rem;
+      font-size: 2.75rem;
+    }
+    &__wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .skills {
+    width: 60rem;
+  }
+}
