@@ -19,8 +19,8 @@ function About() {
           other areas of the business to bring ideas to life.
         </p>
         <p className="about__summary">
-          I feel the sky is the limit in terms of what can be done  with code. I
-          intend to deliver experiences to customers from  idea inception through to
+          I feel the sky is the limit in terms of what can be done digitally. I
+          intend to deliver first in class experiences to customers from idea inception through to
           code. When you love what you do, it is not work.
         </p>
       </about>
