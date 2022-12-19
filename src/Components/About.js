@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+// import Zmage from "react-zmage";
 
 class About extends Component {
   render() {
@@ -15,6 +16,7 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+    console.log(resumeDownload);
 
     return (
       <section id="about">
