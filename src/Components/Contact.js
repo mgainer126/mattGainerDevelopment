@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
+import emailjs from "emailjs-com";
 
 class Contact extends Component {
   render() {
@@ -12,6 +13,26 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+
+    function sendEmail(e) {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_dfmdol6",
+          "template_xr40a7l",
+          e.target,
+          "user_FgOIAYyl9oNSUlLrdBA5T"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
 
     return (
       <section id="contact">
@@ -32,7 +53,8 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              {/* <form action="" method="post" id="contactForm" name="contactForm"> */}
+              <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
