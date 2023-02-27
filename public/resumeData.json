@@ -142,6 +142,12 @@
         "category": "Food",
         "image": "03.png",
         "url": "https://www.foodiofare.com/"
+      },
+      {
+        "title": "Brewer Cave",
+        "category": "Food",
+        "image": "04.png",
+        "url": "https://www.brewercave.com/"
       }
     ]
   }
