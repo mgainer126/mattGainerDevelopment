@@ -148,6 +148,12 @@
         "category": "Food",
         "image": "04.png",
         "url": "https://www.brewercave.com/"
+      },
+      {
+        "title": "Cool Hunterz",
+        "category": "eCommerce",
+        "image": "05.png",
+        "url": "https://coolhunterz.netlify.app/"
       }
     ]
   }
