@@ -1,0 +1,57 @@
+@import "./variables";
+@import "./hero";
+@import "./about";
+@import "./education";
+@import "./work";
+@import "./works";
+@import "./contact";
+@import "./skills";
+@import "./footer";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: open-sans, sans-serif;
+    border: none;
+   }
+
+   ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {text-decoration: none !important;
+}
+
+
+a:visited {color: #eeeded !important;
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-40vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-left.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(40vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-right.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}

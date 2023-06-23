@@ -1,0 +1,125 @@
+.contact {
+  height: 90rem;
+  background-color: $background-drkgrey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: $title-color-ondarkgrey;
+  &-title {
+    color: $title-color-ondarkgrey;
+    font-size: $font-size;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    // max-width: 20rem;
+  }
+  &-description {
+    color: $text-color-ondarkgrey;
+    font-size: $font-size;
+    line-height: 33px;
+    margin-bottom: 2rem;
+    max-width: 19.75rem;
+    font-weight: 200;
+  }
+}
+
+.form {
+  &-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  &-label {
+    color: $title-color-ondarkgrey;
+    font-size: $font-size;
+    margin-bottom: 0.5rem;
+  }
+  &-input {
+    background-color: $background-form;
+    border: none;
+    height: 2.75rem;
+    color: $text-color-onDark;
+    &-message {
+      height: 23.75rem;
+      background-color: $background-form;
+      color: $text-color-onDark;
+    }
+  }
+}
+
+.required {
+  color: $border-bottom-color;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+
+  &-name {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  &-email {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  &-message {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  &-submit {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+#contact-message {
+  height: 23.75rem;
+}
+
+.submit {
+  height: 3.375rem;
+  width: 7.4375rem;
+  background-color: $btn-drk-color;
+  color: $title-color-onDark;
+  font-size: $font-size;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .form {
+    &-label {
+      margin: 1rem;
+    }
+    &-element {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &-input {
+      width: 30rem;
+      margin: 1rem;
+      &-message {
+        width: 30rem;
+        margin: 1rem;
+      }
+    }
+  }
+  .contact {
+    display: flex;
+
+    &-title {
+      display: flex;
+      justify-content: center;
+    }
+    &-description {
+      max-width: 30rem;
+      margin-left: 8rem;
+    }
+  }
+  .submit {
+    margin-left: 7.5rem;
+  }
+}

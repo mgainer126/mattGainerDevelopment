@@ -1,0 +1,122 @@
+.particles-bg-canvas-self{
+    background-color: rgb(3, 3, 3);
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+    
+
+
+    
+    &-title{
+        max-width: 20rem;
+        margin: 1rem 0 3rem 0;
+        font-size: $font-size-header;
+        font-weight: 300;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        color: $title-color-onDark;
+        animation: fadeInRight 1s ease-in-out;
+       
+    }
+    @keyframes fadeInRight {
+        from {
+          opacity: 0;
+          transform: translateX(300px);
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    &-description{
+        max-width: 20rem;
+        margin: 1rem 0 3rem 0;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ddd;
+        font-family: 'librebaskerville-regular', serif;
+        animation: fadeInLeft 1s ease-in-out;
+    }
+    @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-300px);
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    &-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 9rem;
+        height: 3.375rem;
+        background-color:$btn-grey;
+        color: $title-color-onDark;
+
+    }
+    &-btn:hover{
+        background-color: $color5;
+        color: $title-color-onDark;
+    }
+    &-btn:active{
+        background-color: $color5;
+        color: $title-color-onDark;
+    }
+    &-github{
+        font-size: $font-size;
+        font-weight: 100;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+.hero{
+    
+    &-title{
+        max-width: 590px;
+        font-size: 86.4px;
+        font-weight: 400;
+
+    }
+    &-description{
+        max-width: 586px;
+        font-size: 22px;
+       
+        
+    }
+    &-btn{
+        width: 143px;
+        height: 54px;
+
+    }
+    &-github{
+        font-size: 18px;
+        font-weight: 100;
+        margin-left: 0.5rem;
+    }
+}
+
+}
+
+@media screen and (min-width: 1920px) {
+    .hero{
+        height: 100vh;
+        &-title{
+            font-family: 'opensans-bold', sans-serif;
+        }
+    }
+
+}

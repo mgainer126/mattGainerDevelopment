@@ -1,0 +1,78 @@
+.about {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: $background-blue;
+  padding: 3rem 0;
+  &-img {
+    display: none;
+  }
+
+  &-me {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  &-title {
+    color: $title-color-onDark;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  &-description {
+    color: $text-color-onDark;
+    width: 20rem;
+    margin-bottom: 2rem;
+    line-height: 30px;
+  }
+  &-contact {
+    width: 20rem;
+  }
+
+  &-company {
+    color: $text-color-onDark;
+    width: 20rem;
+    line-height: 30px;
+  }
+  &-resume {
+    width: 20.625rem;
+    height: 3.75rem;
+    background-color: $btn-color;
+    color: $title-color-onDark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    &-btn {
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    &-about {
+      display: flex;
+    }
+    &-img {
+      display: block;
+      border-radius: 20%;
+      height: 120px;
+      width: 120px;
+      margin-left: -18rem;
+      margin-right: 10rem;
+    }
+    &-description {
+      width: 668.13px;
+    }
+    &-contact {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 20rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

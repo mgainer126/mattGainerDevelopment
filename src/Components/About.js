@@ -1,68 +1,80 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
-// import Zmage from "react-zmage";
+import data from "../assets/data/resumeData.json";
+import download from "../assets/images/download.svg";
+import meImage from "../assets/images/profilepic.jpg";
+import React from "react";
 
-class About extends Component {
-  render() {
-    if (!this.props.data) return null;
+function About() {
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
 
-    const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+  React.useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => setVisible(entry.isIntersecting));
+    });
 
-    return (
-      <section id="about">
-        <Fade duration={1000}>
-          <div className="row">
-            <div className="three columns">
+    const currentRef = domRef.current; // Create a local variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
+  return (
+    <section className="about">
+      <div
+        className={`fade-in-left ${isVisible ? "is-visible" : ""}`}
+        ref={domRef}
+      >
+        <section className="about-about">
+          <img src={meImage} alt="me" className="about-img" />
+          <section className="about-me">
+            <h2 className="about-title">About Me</h2>
+            {data.main.bio.map((item, index) => {
+              return (
+                <p className="about-description" key={index}>
+                  {item}
+                </p>
+              );
+            })}
+          </section>
+        </section>
+        <section className="about-contact">
+          <div>
+            <h2 className="about-title">Contact Details</h2>
+            <p className="about-company">{data.main.name}</p>
+            <p className="about-company">{data.main.address.street}</p>
+            <p className="about-company">
+              {data.main.address.city}, {data.main.address.state},{" "}
+              {data.main.address.zip}{" "}
+            </p>
+            <p className="about-company">{data.main.phone}</p>
+            <p className="about-company">{data.main.email}</p>
+          </div>
+          <div>
+            <div className="about-resume">
               <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Matt Gainer Pic"
+                src={download}
+                alt="download"
+                className="about-resume-icon"
               />
-            </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
-
-              <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
-              </div>
+              <a
+                href="https://1drv.ms/w/s!AtKTEtRydYtmk1xPa-GdpnYL77fj?e=sAeDks"
+                className="about-resume-btn"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
-        </Fade>
-      </section>
-    );
-  }
+        </section>
+      </div>
+    </section>
+  );
 }
 
 export default About;

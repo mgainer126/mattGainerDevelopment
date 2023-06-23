@@ -1,0 +1,199 @@
+{
+  "main": {
+    "name": "Matt Gainer Developement",
+    "description": "With a genuine passion for web development and a knack for creating with code, I thrive on the boundless possibilities it offers.",
+    "image": "profilepic.jpg",
+    "bio": [
+      "With a genuine passion for web development and a knack for creating with code, I thrive on the boundless possibilities it offers. As a seasoned product owner, I bring a well-rounded skill set to the table, capable of delivering exceptional value to customers. By merging my technical expertise and creative mindset, I design immersive user experiences that go beyond functionality. Moreover, my strategic thinking ensures that every web solution aligns seamlessly with business goals and customer expectations.",
+      "Staying abreast of the latest industry trends, I continually update my skills to leverage cutting-edge technologies. My diverse background empowers me to approach development projects from a holistic perspective, considering both the technical aspects and the overall customer experience. I strive to develop web solutions that leave a lasting impact, resonating with users on both functional and emotional levels.",
+      "Passion, expertise, and a customer-centric focus drive me to create exceptional web solutions. Through my dedication to staying ahead of the curve and my ability to blend creativity with technical proficiency, I am well-equipped to bring value to any web development project. With me, you'll have a dynamic candidate who can deliver remarkable customer experiences and contribute to the growth and success of your organization."
+    ],
+    "contactmessage": "Unlock the potential of your development projects and let's connect! Whether by phone or message, I eagerly await the chance to delve into your specific needs and explore how my expertise can make a meaningful impact.",
+    "email": "matt.gainer126@gmail.com",
+    "phone": "647-295-7798",
+    "github": "https://github.com/mgainer126",
+
+    "address": {
+      "street": "1814 Eastbank Road",
+      "city": "Pickering",
+      "state": "Ontario",
+      "zip": " L1V 3H1"
+    },
+
+    "resumedownload": "/documents/Matt_Gainer_Resume_Web_Developer_v1.1.docx",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/matthew-gainer/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/mgainer126",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are my skills and tools I am experienced with",
+    "education": [
+      {
+        "school": "BrainStation College",
+        "degree": "Web Development Diploma",
+        "graduated": "Aug 2021",
+        "description": [
+          "In my educational journey, I have acquired a treasure trove of invaluable skills that have fortified my expertise in the realm of web development. From mastering HTML5, CSS, SCSS, and JavaScript, to delving into the dynamic world of React.js and DOM manipulation, I have honed my ability to craft stunning and interactive user interfaces.",
+          "But my knowledge doesn't stop there. I have also delved into the realm of APIs, harnessing their power to connect and integrate different systems seamlessly. My proficiency extends to Node.js and Express.js, enabling me to build robust and scalable server-side applications. I have also explored the realm of web APIs, understanding how they empower developers to create feature-rich and data-driven applications.",
+          "Security is a top priority, and I have delved into user authentication, OAuth, and secure deployment on platforms like Heroku and GitHub. My skills encompass the powerful bundler Webpack, ensuring efficient and optimized web applications. I have dived into database management with MySQL, ensuring data integrity and efficient querying.",
+          "Quality assurance is ingrained in my development process. I have embraced testing frameworks like Jest and Enzyme, guaranteeing stable and bug-free code. Furthermore, my proficiency in project management tools like Jira and Confluence ensures seamless collaboration and streamlined workflows.",
+          "With this arsenal of skills, I am equipped to bring visions to life and create remarkable digital experiences. I am ready to embark on new challenges, leveraging my diverse skill set to develop cutting-edge solutions that push boundaries and surpass expectations."
+        ]
+      },
+      {
+        "school": "Scrum Alliance",
+        "degree": "Scrum Product Owner Certificate",
+        "graduated": "Sept 2019",
+        "description": [
+          "As a seasoned Product Owner, I have mastered the art of effective communication with stakeholders at every level. From engaging with customers to collaborating with business managers and development teams, I understand the importance of ensuring clarity in goals and aligning the vision with business objectives. A crucial tool in maintaining that unwavering vision is the creation of a dynamic product roadmap.",
+          "With my expertise, I craft a compelling product roadmap that serves as a guiding light, illuminating the path to success. This strategic roadmap outlines the captivating vision and the progressive direction for our product offering over time. By carefully charting this course, I empower teams to stay focused, remain motivated, and make impactful decisions that drive the achievement of our goals.",
+          "With the product roadmap as our compass, we navigate through challenges and seize opportunities, ensuring that our product stays relevant and ahead of the curve. It becomes the backbone of our success, painting a vivid picture of our future and instilling confidence in our stakeholders.",
+          "As a Product Owner, I embrace the responsibility of shaping the product's destiny. I bring my expertise in communication, stakeholder management, and strategic planning to craft a compelling product roadmap that ignites enthusiasm and drives success. Together, we will embark on an exciting journey, turning our vision into reality, and achieving remarkable milestones along the way."
+        ]
+      }
+    ],
+    "work": [
+      {
+        "company": "President's Choice Financial and Services",
+        "title": "Sr. Product Owner",
+        "years": "February 2009 - Present",
+        "description": [
+          "I spearheaded the successful launch of the groundbreaking Presidents Choice Financial secured banking platform, revolutionizing the way clients manage their finances. This cutting-edge platform integrates the functionalities of PC MasterCard and PC Money Account, providing clients with a seamless and empowering banking experience.",
+          "With this powerful platform, clients gain the ability to effortlessly move money, customize their communication preferences, and set up personalized alerting and notification systems. They can effortlessly track their transaction spending, set and achieve financial goals, and gain insights into their PC Points transactions. The platform also facilitates secure messaging with our dedicated customer service team, ensuring prompt and reliable support.",
+          "We understand the importance of data privacy and convenience. That's why our platform empowers clients to perform hassle-free personal information updates, set travel notices, and make password updates securely and conveniently.",
+          "This dynamic and comprehensive platform embodies our commitment to delivering excellence in banking services. By streamlining and enhancing every aspect of the banking journey, we empower our clients to take control of their financial future. With the Presidents Choice Financial secured banking platform, we are revolutionizing the way individuals interact with their money, providing them with the tools and features they need to achieve their financial aspirations with confidence and ease."
+        ]
+      },
+      {
+        "company": "Royal Bank of Canada",
+        "title": "Project Analyst",
+        "years": "March 2000 - February 2009",
+        "description": [
+          "In the dynamic world of the Credit Card business, I played a pivotal role as part of the migration team leading the transformation of the RBC Credit Card portfolio into the cutting-edge EMV Chip technology. As the driving force behind PIN assignment and card scripting logic, I ensured a seamless and secure transition for our valued customers.",
+          "Recognizing the evolving needs of our tech-savvy clientele, I took on the responsibility of introducing card contactless at the point of sale (POS) technology. By leveraging innovative advancements, I empowered customers to experience the ultimate convenience and speed of contactless transactions.",
+          "With an unwavering commitment to delivering exceptional user experiences, I constantly strive to push the boundaries of technological innovation in the Credit Card industry. By pioneering the implementation of EMV Chip technology and integrating contactless capabilities, I have revolutionized the way customers interact with their cards, enhancing both security and convenience.",
+          "My passion for staying ahead of the curve and my dedication to enhancing the payment landscape have set me apart. Through my contributions, I have not only shaped the future of the Credit Card business but also improved the daily lives of countless individuals, providing them with seamless, secure, and swift payment experiences at every touchpoint.",
+          "In the fast-paced realm of credit cards, I am proud to have been at the forefront of transformative initiatives, harnessing technology to drive progress and elevate the customer experience. With my expertise, vision, and relentless pursuit of excellence, I continue to shape the future of payment solutions, making a lasting impact on the industry and the lives of those we serve."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "REACTJS",
+        "level": "95"
+      },
+      {
+        "name": "JAVASCRIPT",
+        "level": "90"
+      },
+      {
+        "name": "SCSS",
+        "level": "90"
+      },
+      {
+        "name": "CSS",
+        "level": "90"
+      },
+      {
+        "name": "WEBAPI",
+        "level": "90"
+      },
+
+      {
+        "name": "KNEX",
+        "level": "80"
+      },
+      {
+        "name": "NODEJS",
+        "level": "80"
+      },
+      {
+        "name": "EXPRESS",
+        "level": "80"
+      },
+      {
+        "name": "DOM",
+        "level": "90"
+      },
+      {
+        "name": "AGILE",
+        "level": "100"
+      },
+      {
+        "name": "JIRA",
+        "level": "100"
+      },
+      {
+        "name": "CONFLUENCE",
+        "level": "100"
+      },
+      {
+        "name": "TS2 (TSYS)",
+        "level": "100"
+      },
+      {
+        "name": "MYSQL",
+        "level": "80"
+      },
+      {
+        "name": "BUSINESS PROCESS MODELING",
+        "level": "100"
+      },
+      {
+        "name": "BUSINESS PROCESS MODELING",
+        "level": "100"
+      },
+      {
+        "name": "BUSINESS CASE MANAGEMENT",
+        "level": "100"
+      },
+      {
+        "name": "REQUIREMENTS GATHERING AND ANALYSIS",
+        "level": "100"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Resume Website",
+        "category": "Work",
+        "image": "../images/01.png",
+        "url": "https://www.mattgainerdevelopment.com/"
+      },
+      {
+        "title": "Matt's Dashboard",
+        "category": "Investement",
+        "image": "02.png",
+        "url": "https://gleaming-cajeta-8effdd.netlify.app/"
+      },
+      {
+        "title": "Foodio Fare",
+        "category": "Food",
+        "image": "03.png",
+        "url": "https://www.foodiofare.com/"
+      },
+      {
+        "title": "Brewer Cave",
+        "category": "Food",
+        "image": "04.png",
+        "url": "https://www.brewercave.com/"
+      },
+      {
+        "title": "Cool Hunterz",
+        "category": "eCommerce",
+        "image": "05.png",
+        "url": "https://coolhunterz.netlify.app/"
+      }
+    ]
+  }
+}
